@@ -64,19 +64,56 @@ Enter the number of the starting city: 1
 
 ### Output:
 ```
-Results for Shortest Distance from Moreno Valley:
-Destination     Distance/Cost   Path
-Riverside       16.00           Moreno Valley -> Riverside
-Moreno Valley   0.00            Moreno Valley
-Perris          18.00           Moreno Valley -> Perris
-Hemet           26.00           Moreno Valley -> Hemet
+Welcome to the Inland Empire Solar Sales Travel Program!
+Here are the cities:
+0: Riverside
+1: Moreno Valley
+2: Perris
+3: Hemet
+Enter the number of the starting city: 0
 
-Results for Lowest Cost from Moreno Valley:
-Destination     Distance/Cost   Path
-Riverside       2.40            Moreno Valley -> Riverside
-Moreno Valley   0.00            Moreno Valley
-Perris          2.70            Moreno Valley -> Perris
-Hemet           4.35            Moreno Valley -> Hemet
+Adjacency Matrix of Distances:
+Distances (Miles):
+
+                     Riverside  Moreno Valley         Perris          Hemet
+---------------------------------------------------------------------------
+      Riverside              0             16             24             33
+  Moreno Valley             16              0             18             26
+         Perris             24             18              0             30
+          Hemet             33             26             30              0
+
+
+Adjacency Matrix of Costs:
+Costs (Dollars):
+
+                     Riverside  Moreno Valley         Perris          Hemet
+---------------------------------------------------------------------------
+      Riverside           0.00           2.40           3.60           4.95
+  Moreno Valley           2.40           0.00           2.70           4.35
+         Perris           3.60           2.70           0.00           4.80
+          Hemet           4.95           4.35           4.80           0.00
+
+
+Calculating shortest paths...
+Results for Shortest Distance (in miles) from Riverside:
+------------------------------------------------------------
+Destination    Distance/Cost  Path
+------------------------------------------------------------
+Riverside      0.00           Riverside
+Moreno Valley  16.00          Riverside -> Moreno Valley
+Perris         24.00          Riverside -> Perris
+Hemet          33.00          Riverside -> Hemet
+
+
+Calculating most cost-effective paths...
+Results for Lowest Cost (in U.S dollars) from Riverside:
+------------------------------------------------------------
+Destination    Distance/Cost  Path
+------------------------------------------------------------
+Riverside      0.00           Riverside
+Moreno Valley  2.40           Riverside -> Moreno Valley
+Perris         3.60           Riverside -> Perris
+Hemet          4.95           Riverside -> Hemet
 ```
 
 ---
