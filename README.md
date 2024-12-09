@@ -1,7 +1,7 @@
 
 
 ---
- Inland Empire Solar Sales Travel Program
+ ## Inland Empire Solar Sales Travel Program
 
 ## General Description
 The **Inland Empire Solar Sales Travel Program** is a C++ application designed to help solar sales representatives efficiently plan their travel routes. It computes both the shortest distances and the most cost-effective paths between four cities in the Inland Empire: Riverside, Moreno Valley, Perris, and Hemet. The program uses **Dijkstra's algorithm** to determine optimal paths for distance and cost and provides clear, formatted output for easy interpretation.
