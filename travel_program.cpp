@@ -37,7 +37,7 @@ float costs[NUM_CITIES][NUM_CITIES] =
     {4.95f, 4.35f, 4.80f, 0.0f}  // Costs from Hemet to others
 };
 
-// Generic function to display matrices (supports both int and float types)
+// Function to display matrices in a more easily readable format (supports both int and float types)
 template <typename T>
 void displayMatrix(const string& title, T matrix[NUM_CITIES][NUM_CITIES])
 {
