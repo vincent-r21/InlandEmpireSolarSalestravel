@@ -59,17 +59,17 @@ Run the compiled program:
 ## Example Run
 ### Input:
 ```
-Enter the number of the starting city: 1
-```
-
-### Output:
-```
 Welcome to the Inland Empire Solar Sales Travel Program!
 Here are the cities:
 0: Riverside
 1: Moreno Valley
 2: Perris
 3: Hemet
+Enter the number of the starting city: 0
+```
+
+### Output:
+```
 Enter the number of the starting city: 0
 
 Adjacency Matrix of Distances:
