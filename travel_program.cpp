@@ -8,7 +8,7 @@ Program requirements:
 
 #include <iostream>
 #include <vector> 
-#include <climits> // For utilization of INT_MAX which is used to represent absence of a direct connection between nodes
+#include <climits> // For utilization of INT/FLT_MAX which is used to represent absence of a direct connection between nodes
 #include <string>  // For more feasible string manipulation
 #include <iomanip> // For output formatting
 #include <cfloat>  // For FLT_MAX to handle float costs
